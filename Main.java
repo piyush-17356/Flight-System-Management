@@ -1480,8 +1480,8 @@ public class Main extends Thread {
 		currentThread();
 		Thread.sleep(1000);
 		print(DB);
-		int ser=notrans[0]+notrans[2]+notrans[2]+notrans[3]+notrans[4];
-		int par=notrans2[0]+notrans2[2]+notrans2[2]+notrans2[3]+notrans2[4];
+		int ser=notrans[0]+notrans[1]+notrans[2]+notrans[3]+notrans[4];
+		int par=notrans2[0]+notrans2[1]+notrans2[2]+notrans2[3]+notrans2[4];
 		System.out.println("2PL "+par);
 		System.out.println("Serial "+ser);
 //		System.out.println(notrans[0]+" "+notrans[1]+" "+notrans[2]+" "+notrans[3]+" "+notrans[4]);
